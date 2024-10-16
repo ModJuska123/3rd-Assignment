@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="lt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kainos skaičiuoklė</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      #result {
+        margin-top: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Kainos skaičiuoklė</h1>
+    <input
+      type="number"
+      id="userCount"
+      placeholder="Vartotojų skaičius"
+      min="0"
+      value="0"
+    /><button id="decreaseBtn">⬅️</button><button id="increaseBtn">➡️</button>
+    <div id="result">Kaina: 0€</div>
+    <script src="script.js"></script>
+  </body>
+</html>
